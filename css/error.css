@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main{
+    text-transform: uppercase;
+}
+
+.main h2{
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+
+.main h1{
+    font-size: 10rem;
+    padding-bottom: 2rem;
+}
+
+.main h3{
+    font-size: 2rem;
+    padding-bottom: 4rem;
+}
+
+.main nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}

@@ -1,0 +1,160 @@
+/*
+MAIN
+*/
+
+
+/*--------------------------------------------------*/
+/*À PROPOS*/
+/*--------------------------------------------------*/
+
+main #a-propos{
+    display: flex;
+    align-items: center;
+}
+
+main #a-propos h1{
+    padding: 1rem 0;
+    text-align: center;
+    font-size: 3rem;
+}
+
+main #a-propos article.presentation{
+    margin-top: 3rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 4rem;
+}
+
+main #a-propos article:not(:first-child){
+    margin: 4rem;
+}
+
+main #a-propos article figure{
+    width: 200px;
+}
+
+main #a-propos article figure img{
+    width: 100%;
+    margin: 0 auto;
+}
+
+main #a-propos article h1{
+    margin-top: .75rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+main #a-propos article h2{
+    text-transform: uppercase;
+}
+
+main #a-propos article h3{
+    margin-top: .75rem;
+}
+
+main #a-propos article p{
+    margin: 1rem 0;
+    font-size: 1.2rem;
+}
+
+main #a-propos .link{
+    font-weight: 600;
+    color : var(--primary-color-150);
+}
+
+main #a-propos .link:hover{
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+
+main #presentation article .button{
+    margin: 0 15rem 0 0;
+}
+
+/*--------------------------------------------------*/
+/*FORMATIONS*/
+/*--------------------------------------------------*/
+
+
+main #formations{
+    display: flex;
+    align-items: center;
+    background-color: #fefefe;
+}
+
+main #formations h1{
+    padding: 2rem 0;
+    text-align: center;
+    font-size: 3rem;
+}
+
+
+main #formations article.formations{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+main #formations article.formations .formation{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    border: 5px solid var(--primary-color)
+}
+
+main #formations article.formations .formation .left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+main #formations article.formations .formation .left p{
+    font-size: 1rem;
+}
+
+main #formations article.formations .formation .right h1{
+    font-size: 1rem;
+    text-align: right;
+}
+
+main #formations article.formations .formation .right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 1rem;
+}
+
+
+@media screen and (max-width:1024px){
+    main #a-propos article.presentation{
+        flex-direction: column;
+        justify-content : center;
+        align-items: center;
+    }
+
+    aside a.button{
+        width: 100%;
+    }
+
+    main #a-propos aside h1{
+        text-align: initial;
+    }
+}
+
+@media screen and (max-width:769px){
+    main #formations article.formations .formation{
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    main #formations article.formations .formation .right{
+        gap : 0.5rem;
+    }
+
+    main #formations .right h1{
+        padding : 1rem 0 0 0 ;
+    }
+}

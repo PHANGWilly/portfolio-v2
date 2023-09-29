@@ -1,0 +1,33 @@
+/*
+MAIN
+*/
+
+/*--------------------------------------------------*/
+/*MENTIONS LEGALES*/
+/*--------------------------------------------------*/
+
+section article{
+    padding: 1rem 0;
+}
+
+section h2{
+    text-transform: uppercase;
+    padding: 1rem 0;
+}
+
+section p{
+    font-family: 2rem;
+    padding: .2rem 0;
+}
+
+section p a{
+    color:var(--main-black-color);
+}
+
+section p a:hover{
+    color:var(--primary-color);
+}
+
+section p a span{
+    padding: 0 .5rem;
+}

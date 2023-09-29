@@ -1,0 +1,42 @@
+/*
+MAIN
+*/
+
+/*--------------------------------------------------*/
+/*PLAN DU SITE*/
+/*--------------------------------------------------*/
+
+section article{
+    padding: 2rem 0;
+}
+
+article h2{
+    text-transform: uppercase;
+    padding: 1rem 0;
+}
+
+article h2{
+    font-family: 2rem;
+    padding: .2rem 0;
+    color: var(--main-black-color);
+}
+
+article h2 a{
+    color: var(--main-black-color);
+}
+
+article h2 a:hover{
+    color: var(--primary-color);
+}
+
+article p{
+    padding: .5rem 0;
+}
+
+article p a{
+    color: var(--main-black-color);
+}
+
+article p a:hover{
+    color:var(--primary-color);
+}

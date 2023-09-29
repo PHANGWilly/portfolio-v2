@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /includes/
+Disallow: /assets/
+Disallow: /images/
+Disallow: /uploads/
+
+
+Sitemap: https://phangwilly.com/sitemap.xml

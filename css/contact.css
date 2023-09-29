@@ -1,0 +1,81 @@
+/*
+MAIN
+*/
+
+/*--------------------------------------------------*/
+/*CONTACT*/
+/*--------------------------------------------------*/
+
+main #contact h1{
+    padding: 1rem 0;
+    text-align: center;
+    font-size: 3rem;
+}
+
+main #contact h3{
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+
+main #contact form{
+    margin: 0 auto;
+}
+
+main #contact form label{
+    padding-bottom: .5rem;
+    font-size: 1.3rem;
+}
+
+main #contact form .ligne{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+main #contact form .input{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+main #contact form input[type=text], 
+main #contact form input[type=email],
+main #contact form textarea{
+    font-size: 1.2rem;
+    padding: 1rem 1.5rem;
+}
+
+main #contact form .textarea{
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+}
+
+main #contact form .textarea textarea{
+    resize: vertical;
+}
+
+main #contact form input[type=submit]{
+    margin: 2rem auto 0 auto;
+    width: 50%;
+}
+
+main #contact form input[type=submit]:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width:1024px){
+    main #contact form .ligne{
+        flex-direction: column;
+    }
+
+    main #contact form .input {
+        width: 100%;
+    }
+    
+    main #contact form input[type=submit]{
+        width: 100%;
+    }
+}
